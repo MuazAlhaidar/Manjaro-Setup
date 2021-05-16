@@ -1,6 +1,8 @@
 #! /usr/bin/bash
 
-sudo pacman -S netbeans discord htop libreoffice-fresh lutris openshot rhythmbox steam
+sudo pacman -Sy netbeans discord htop libreoffice-still lutris openshot rhythmbox steam base-devel atom handbrake git gitg 
+
+# Download Whatsapp for linux off of the manjaro software store
 
 git clone https://aur.archlinux.org/trizen.git
 cd trizen
