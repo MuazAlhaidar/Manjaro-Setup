@@ -1,6 +1,6 @@
 #! /usr/bin/bash
 
-sudo pacman -Sy netbeans discord htop libreoffice-still lutris openshot rhythmbox steam base-devel atom handbrake git gitg 
+sudo pacman -Sy netbeans discord htop libreoffice-still lutris openshot rhythmbox steam base-devel atom handbrake git gitg gnome-keyring libsecret seahorse
 
 # Download Whatsapp for linux off of the manjaro software store
 
