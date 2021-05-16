@@ -1,7 +1,8 @@
 #! /usr/bin/bash
 # Setup Github 2fa with gnome-keyring
-# https://marklodato.github.io/2013/10/25/github-two-factor-and-gnome-keyring.html
+# https://wiki.archlinux.org/title/GNOME/Keyring#Git_integration
 
 # next time on pushing to a repo
 # just enter your access token instead of password and your good
-git config --global credential.helper gnome-keyring
+# need to have libsecret installed
+git config --global credential.helper /usr/lib/git-core/git-credential-libsecret
