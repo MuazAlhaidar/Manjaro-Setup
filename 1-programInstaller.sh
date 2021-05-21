@@ -26,3 +26,8 @@ sudo -u clamav /usr/bin/fangfrisch --conf /etc/fangfrisch/fangfrisch.conf initdb
 
 systemctl start clamav-freshclam.service
 systemctl enable clamav-freshclam.service
+
+# How to run clamav for a directory
+# sudo clamscan -r -i DIRECTORY
+# The options -r, means recursively scan and the -i means to
+# only show infected files.
