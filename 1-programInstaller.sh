@@ -10,7 +10,7 @@ git clone https://aur.archlinux.org/trizen.git
 cd trizen
 makepkg -si
 
-trizen visual-studio-code-bin bluejeans zoom elementary-planner python-fangfrisch
+trizen visual-studio-code-bin bluejeans zoom elementary-planner python-fangfrisch ttf-ms-fonts
 
 sudo freshclam
 
