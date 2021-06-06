@@ -1,9 +1,9 @@
 #! /usr/bin/bash
 
-sudo pacman -S wpa_supplicant wireless_tools networkmanager
+sudo pacman -S wpa_supplicant wireless_tools networkmanager --noconfirm
 
-# UI support packages
-sudo pacman -S nm-connection-editor network-manager-applet
+# UI support packages 
+sudo pacman -S nm-connection-editor network-manager-applet --noconfirm
 
 sudo systemctl enable NetworkManager.service
 sudo systemctl disable dhcpcd.service
