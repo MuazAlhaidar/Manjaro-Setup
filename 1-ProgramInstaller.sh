@@ -8,7 +8,13 @@ git clone https://aur.archlinux.org/trizen.git
 cd trizen
 makepkg -si --noconfirm
 
-trizen visual-studio-code-bin bluejeans zoom elementary-planner python-fangfrisch ttf-ms-fonts
+# Have to be manually installed as trizen cant do multiple packages at the same time
+# trizen visual-studio-code-bin 
+# trizen bluejeans 
+# trizen zoom 
+# trizen elementary-planner 
+# trizen python-fangfrisch 
+# trizen ttf-ms-fonts
 
 sudo freshclam
 
