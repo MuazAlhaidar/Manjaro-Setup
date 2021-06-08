@@ -62,3 +62,4 @@ systemctl enable clamav-freshclam.service
 # sudo clamscan -r -i DIRECTORY
 # The options -r, means recursively scan and the -i means to
 # only show infected files.
+
