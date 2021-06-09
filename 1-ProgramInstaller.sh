@@ -30,6 +30,7 @@ sudo pacman -S gimp --noconfirm
 sudo pacman -S blender --noconfirm
 sudo pacman -S appimagelauncher --noconfirm
 sudo pacman -S gnome-tweaks --noconfirm
+sudo pacman -S ntfs-3g --noconfirm
 sudo pacman -Sy manjaro-settings-manager --noconfirm
 
 # Download Whatsapp for linux off of the manjaro software store
