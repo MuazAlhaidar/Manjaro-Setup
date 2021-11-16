@@ -1,0 +1,7 @@
+#! /usr/bin/bash
+
+sudo pacman -S jre11-openjdk-headless jre11-openjdk jdk11-openjdk openjdk11-doc openjdk11-src scala
+
+yay -S apache-spark
+
+echo "export SPARK_HOME=/opt/apache-spark/bin" | sudo tee -a /etc/profile.d/apache-spark.sh
