@@ -1,4 +1,4 @@
-#! /usr/bin/bash
+#! /usr/bin/bash 
 
 sudo pacman -Syu 
 sudo pacman -S netbeans discord htop libreoffice-still lutris openshot rhythmbox steam base-devel atom handbrake git gitg gnome-keyring libsecret seahorse speedtest-cli jre-openjdk nodejs npm python python-pipx pycharm-community-edition kalarm clamav gimp blender appimagelauncher gnome-tweaks ntfs-3g manjaro-settings-manager lxappearance arandr qt5ct i3 powerline --noconfirm
