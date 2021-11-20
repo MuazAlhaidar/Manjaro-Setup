@@ -24,14 +24,3 @@ if [ -f $HOME/.local/lib/python3.9/site-packages/powerline/bindings/bash/powerli
 fi" >> ~/.bashrc
 
 source ~/.bashrc
-
-# Finally open the following file and change the lines:
-# ~/.local/lib/python3.8/site-packages/powerline/config_files/themes/shell/default.json
-
-# Change line from: 
-# "function": "powerline.segments.shell.jobnum",
-# "priority": 20
-
-# To
-# "function": "powerline_gitstatus.gitstatus",
-# "priority": 40
